@@ -1,9 +1,9 @@
 //Q 1
-void main()
-{
-  int hour = DateTime.now().hour;
-  print(hour);
-}
+// void main()
+// {
+//   int hour = DateTime.now().hour;
+//   print(hour);
+// }
 
 //Q 2
 // void main() {
