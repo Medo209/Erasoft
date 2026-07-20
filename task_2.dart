@@ -12,7 +12,15 @@ void main() {
     print(item);
   }
 }
-Q:3
+Q:3 علي طريقه البشمهندس في السيشن
+void main() {
+  List<int> number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<int> even = [];
+  even = number.where((e) {
+    return e.isEven;
+  }).toList();
+  print(even);
+}
 Q:4
 void main() {
   int number = 8;
@@ -37,3 +45,15 @@ void main() {
   }
 }
 Q:7
+void main()
+{
+    List<String> name = ['muhamed','salah'];
+    for(int i = 0;i<name.length;i++)
+    {
+        switch(i)
+        {
+            case 0:print('Firstname: ${name[i]}');
+            case 1:print('Lastname: ${name[i]}');
+        }
+    }
+}
