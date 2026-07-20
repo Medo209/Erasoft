@@ -5,8 +5,11 @@
 // }
 
 //Q:2
+// void main()
+// {
 
-
+// }
+//Q:3
 //Q:4
 // void main() {
 //   int number = 8;
@@ -21,3 +24,13 @@
 //     default:print('invalid number');
 //   }
 // }
+//Q:5
+//Q:6
+// void main() {
+//   int counter = 0;
+//   while (counter < 10) {
+//     print('Hello');
+//     counter++;
+//   }
+// }
+//Q:7
