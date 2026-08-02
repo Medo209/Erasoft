@@ -14,11 +14,29 @@ class Student {
   String name;
   int age;
   double grade;
-  Student({required this.name, required this.age, required this.grade});
+  Student(this.name,this.age,this.grade);
   Student.guest() : name = 'Guest', age = 0, grade = 0;
-  void showInfo(){
+  void showInfo() {
     print('name: $name');
     print('age: $age');
     print('grade: $grade');
+  }
+}
+
+class BankAccount {
+  int _balance = 0;
+  BankAccount(int balance) {
+    _balance = balance;
+  }
+  set Balance(int balance) {
+    if (balance >= 0) {
+      _balance = balance;
+    } else {
+      print("Invalid balance");
+    }
+  }
+
+  get Balance {
+    return _balance;
   }
 }
